@@ -7,7 +7,7 @@ window.onload = function(){
   //window.setInterval(writeDate, 500);
   window.setInterval(function(){
     writeDate();
-  });
+  }, 500);
 };
 
 function writeDate(){
